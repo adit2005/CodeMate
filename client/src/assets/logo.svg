@@ -1,0 +1,67 @@
+<!-- Save as logo.svg -->
+<svg
+  width="600"
+  height="200"
+  viewBox="0 0 600 200"
+  xmlns="http://www.w3.org/2000/svg"
+  style="background-color: #1E1E1E"  <!-- A dark background -->
+>
+  <!-- 
+    Background rectangle for a clean look 
+    Remove or modify if you want a transparent background 
+  -->
+  <rect width="600" height="200" fill="#1E1E1E" />
+  
+  <!-- 
+    Stylized "network" icon:
+    A person-like node in the center, with lines connecting out to 5 outer circles 
+  -->
+  <g transform="translate(100, 100)"> <!-- Move the icon to center of the left side -->
+    <!-- Center Person Node -->
+    <circle cx="0" cy="0" r="15" fill="#4CCA6A" />
+    
+    <!-- Outer circles, forming a star-like shape around the center -->
+    <!-- Top circle -->
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#4CCA6A" stroke-width="2" />
+    <circle cx="0" cy="-50" r="8" fill="#4CCA6A" />
+
+    <!-- Top-right circle -->
+    <line x1="0" y1="0" x2="43.3" y2="-25" stroke="#4CCA6A" stroke-width="2" />
+    <circle cx="43.3" cy="-25" r="8" fill="#4CCA6A" />
+    
+    <!-- Bottom-right circle -->
+    <line x1="0" y1="0" x2="43.3" y2="25" stroke="#4CCA6A" stroke-width="2" />
+    <circle cx="43.3" cy="25" r="8" fill="#4CCA6A" />
+    
+    <!-- Bottom circle -->
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#4CCA6A" stroke-width="2" />
+    <circle cx="0" cy="50" r="8" fill="#4CCA6A" />
+    
+    <!-- Top-left circle -->
+    <line x1="0" y1="0" x2="-43.3" y2="-25" stroke="#4CCA6A" stroke-width="2" />
+    <circle cx="-43.3" cy="-25" r="8" fill="#4CCA6A" />
+  </g>
+  
+  <!-- Main Text: "Code Mate" -->
+  <text
+    x="170"
+    y="95"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="36"
+    font-weight="bold"
+    fill="#4CCA6A"
+  >
+    Code Mate
+  </text>
+  
+  <!-- Subtitle: "Code, Chat, and Collaborate. It's All in Sync." -->
+  <text
+    x="170"
+    y="130"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    fill="#FFFFFF"
+  >
+    Code, Chat, and Collaborate. It's All in Sync.
+  </text>
+</svg>
