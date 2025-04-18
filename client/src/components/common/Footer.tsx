@@ -7,7 +7,7 @@ function Footer() {
                     href="https://github.com/adit2005"
                     className="text-primary underline underline-offset-1"
                 >
-                    sahilatahar
+                    Aditya 
                 </a>
             </span>
         </footer>
