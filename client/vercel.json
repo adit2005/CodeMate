@@ -3,6 +3,6 @@
         {"source": "/(.*)", "destination": "/index.html"}
     ],
     "env": {
-        "VITE_BACKEND_URL": "https://code-mate-zqtp-1sr71xfi8-adit2005s-projects.vercel.app"
+        "VITE_BACKEND_URL": "https://code-mate-zqtp.vercel.app/"
     }
 }
